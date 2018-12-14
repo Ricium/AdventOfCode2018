@@ -24,12 +24,16 @@
     <Compile Include="Day1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Day2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="input\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="input\day1_input.txt" />
+    <Content Include="input\day2_input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
