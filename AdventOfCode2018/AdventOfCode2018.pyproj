@@ -5,8 +5,7 @@
     <ProjectGuid>c5d3bdaa-b7c0-4696-acca-d65e41aed80f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>AdventOfCode2018.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>input</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>AdventOfCode2018</Name>
@@ -22,6 +21,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AdventOfCode2018.py" />
+    <Compile Include="Day1.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="input\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="input\day1_input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
